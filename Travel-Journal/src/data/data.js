@@ -21,7 +21,7 @@ const data = [
     imageUrl: 'https://source.unsplash.com/JmuyB_LibRo',
   },
   {
-    id: 2,
+    id: 3,
     title: 'Geirangerfjord',
     location: 'Norway',
     googleMapsUrl: 'https://maps.app.goo.gl/bJSPJ8nchc18Zx298',

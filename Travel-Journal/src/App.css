@@ -6,3 +6,8 @@
   flex-direction: column;
   align-items: center;
 }
+
+.cards--list {
+  height: 300px;
+  background-color: red;
+}
