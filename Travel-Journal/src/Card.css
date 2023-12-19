@@ -1,60 +1,60 @@
-.cart--section {
+.card--section {
   width: 470px;
   display: flex;
   align-items: center;
   margin-top: 3em;
 }
 
-.cart--img {
+.card--img {
   width: 125px;
   height: 168px;
   object-fit: cover;
   border-radius: 6px;
 }
 
-.cart-info_container {
+.card-info_container {
   text-align: left;
   margin-left: 1em;
 }
 
-.cart--location_container {
+.card--location_container {
   display: flex;
   align-items: center;
   gap: 0.5em;
 }
 
-.cart--location {
+.card--location {
   font-size: 10.24px;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin: 0;
 }
 
-.cart--icon {
+.card--icon {
   color: #f55a5a;
   margin-right: 0.2em;
 }
 
-.cart--location_link {
+.card--location_link {
   color: #918e9b;
   font-size: 10.24px;
 }
 
-.cart--country {
+.card-dcountry {
   color: #2b283a;
   font-size: 25px;
   font-weight: 700;
   margin: 0.2em 0 0.5em 0;
 }
 
-.cart--date {
+.card--date {
   color: #2b283a;
   font-size: 10.24px;
   font-weight: 700;
   /* margin: 0 0 0.8em 0; */
 }
 
-.cart--description {
+.card--description {
   color: #2b283a;
   font-size: 10.24px;
   text-align: left;
