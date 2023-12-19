@@ -1,5 +1,5 @@
 .navbar--container {
-  width: 550px;
+  width: 34.375em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,7 +14,7 @@
 }
 
 .navbar--heading {
-  font-size: 14.46px;
+  font-size: 0.9rem;
   font-weight: 500;
   letter-spacing: -0.3px;
   color: #fff;

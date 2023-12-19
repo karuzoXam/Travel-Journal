@@ -1,5 +1,5 @@
 #root {
-  max-width: 550px;
+  max-width: 34.375em;
   margin: 0 auto;
   padding: 2rem 0;
   display: flex;
@@ -8,6 +8,6 @@
 }
 
 .cards--list {
-  height: 300px;
-  background-color: red;
+  height: 37.5em;
+  overflow: auto;
 }

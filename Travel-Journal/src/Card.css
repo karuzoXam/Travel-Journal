@@ -1,13 +1,18 @@
 .card--section {
-  width: 470px;
-  display: flex;
+  width: 29.375em;
+
   align-items: center;
   margin-top: 3em;
 }
 
+.card--section,
+.card--location_container {
+  display: flex;
+}
+
 .card--img {
-  width: 125px;
-  height: 168px;
+  width: 7.812em;
+  height: 10.5em;
   object-fit: cover;
   border-radius: 6px;
 }
@@ -18,13 +23,18 @@
 }
 
 .card--location_container {
-  display: flex;
   align-items: center;
   gap: 0.5em;
 }
 
+.card--location,
+.card--location_link,
+.card--date,
+.card--description {
+  font-size: 0.64rem;
+}
+
 .card--location {
-  font-size: 10.24px;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin: 0;
@@ -37,28 +47,31 @@
 
 .card--location_link {
   color: #918e9b;
-  font-size: 10.24px;
+}
+
+.card-dcountry,
+.card--date,
+.card--description {
+  color: #2b283a;
+}
+
+.card-dcountry,
+.card--date {
+  font-weight: 700;
 }
 
 .card-dcountry {
-  color: #2b283a;
-  font-size: 25px;
-  font-weight: 700;
+  font-size: 1.562rem;
   margin: 0.2em 0 0.5em 0;
 }
 
 .card--date {
-  color: #2b283a;
-  font-size: 10.24px;
-  font-weight: 700;
-  /* margin: 0 0 0.8em 0; */
+  margin: 0 0 0.8em 0;
 }
 
 .card--description {
-  color: #2b283a;
-  font-size: 10.24px;
   text-align: left;
   line-height: 1.5;
   margin: 0;
-  max-width: 326px;
+  max-width: 29em;
 }
