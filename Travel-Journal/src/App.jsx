@@ -4,10 +4,14 @@ import Navbar from './Navbar.jsx';
 import data from './data/data.js';
 
 function App() {
+  const cards = data.map((item) => {
+    return <Cart key={item.id} item={item} />;
+  });
+
   return (
     <>
       <Navbar />
-      <Cart />
+      <section className="cards-list">{cards}</section>
     </>
   );
 }

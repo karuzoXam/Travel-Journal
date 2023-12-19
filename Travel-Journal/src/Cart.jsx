@@ -2,28 +2,27 @@ import './Cart.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
-function Cart() {
+function Cart(props) {
+  console.log(props.item);
   return (
     <section className="cart--section">
-      <img className="cart--img" src="https://source.unsplash.com/WLxQvbMyfas" alt=""></img>
+      <img className="cart--img" src={props.item.imageUrl} alt={props.item.title}></img>
       <div className="cart-info_container">
         <div className="cart--location_container">
           <p className="cart--location">
             <FontAwesomeIcon className="cart--icon" icon={faLocationDot} />
-            Japan
+            {props.item.location}
           </p>
-          <a className="cart--location_link" href="#">
+          <a className="cart--location_link" href={props.item.googleMapsUrl} target="_blank">
             View on Google Maps
           </a>
         </div>
 
-        <h1 className="cart--country">Mount Fuji</h1>
-        <p className="cart--date">12- Jan, 2021</p>
-        <p className="cart--description">
-          Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount
-          Fuji is the single most popular tourist site in Japan, for both Japanese and foreign
-          tourists.
+        <h1 className="cart--country">{props.item.title}</h1>
+        <p className="cart--date">
+          {props.item.startDate} - {props.item.endDate}
         </p>
+        <p className="cart--description">{props.item.description}</p>
       </div>
     </section>
   );
